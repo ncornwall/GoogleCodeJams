@@ -37,7 +37,7 @@ public class Puzzle {
 					testCases = new ArrayList<PuzzleTestCase>();
 				}
 				//header line
-				else if (testCases.size() == 0 || getLast().remainingArgs > 0) {
+				else if (testCases.size() == 0 || getLast().remainingArgs == 0) {
 					createTestCase(line);
 				}
 				else {
